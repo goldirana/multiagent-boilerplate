@@ -1,0 +1,15 @@
+{
+  "project_name": "MultiAgent System",
+  "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+  "author_name": "eg: Rajesh Goldy",
+  "author_email": "eg: https://www.linkedin.com/in/rajeshgoldy/",
+  "github_username": "eg: goldirana",
+  "github_repo": "{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}",
+  "repo_name": "{{ cookiecutter.project_slug }}",
+  "description": "A comprehensive multi-agent system with backend, server, and frontend components",
+  "python_version": "3.12",
+  "create_virtualenv": ["y", "n"],
+  "venv_name": "{{ cookiecutter.project_slug }}-py{{ cookiecutter.python_version.replace('.', '') }}",
+  "license": ["MIT", "Apache-2.0", "BSD-3-Clause", "Proprietary"],
+  "version": "0.1.0"
+}
